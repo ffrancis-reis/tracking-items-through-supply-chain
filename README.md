@@ -8,13 +8,13 @@ The project has some UML diagrams (in the diagrams folder) as the activity diagr
 
 ![activity](https://user-images.githubusercontent.com/29313947/128574567-22ad7f1c-c87c-4116-81ca-3787ae8ff59d.png)
 
-**Important** The project was made with the versions below, since Truffle v5 comes with Solidity v0.5 with many changes concerning mutability and visibility.
+**Important**: The project was made with the versions below, since Truffle v5 comes with Solidity v0.5 with many changes concerning mutability and visibility.
 
 - Truffle v4.1.14 (core: 4.1.14)
 - Solidity v0.4.24 (solc-js)
 - Ganache CLI v6.12.2 (ganache-core: 2.13.2)
 
-**Important** The project didn't use any external **libraries** worth mentioning and also didn't use **IPFS** to host the frontend part decentralized as well.
+**Important**: The project didn't use any external **libraries** worth mentioning and also didn't use **IPFS** to host the frontend part decentralized as well.
 
 ### Getting Started
 
@@ -31,7 +31,7 @@ The project has some UML diagrams (in the diagrams folder) as the activity diagr
 4. Install [Truffle](https://www.trufflesuite.com/truffle) CLI. Truffle is the most popular development framework for Ethereum.
 5. Use this passphrase with [Ganache](https://www.trufflesuite.com/ganache) command as a suggestion _"spirit supply whale amount human item harsh scare congress discover talent hamster"_. Ganache is part of the Truffle suite that you can use to run a personal Ethereum blockchain.
 
-**Important** You will need your personal passphrase from your Ethereum account to publish into the Rinkeby Test Network, hence the **.secret** file in the **truffle-config.js**, even tough being a test network.
+**Important**: You will need your personal passphrase from your Ethereum account to publish into the Rinkeby Test Network, hence the **.secret** file in the **truffle-config.js**, even tough being a test network.
 
 ### Instructions
 
@@ -69,11 +69,11 @@ The project has some UML diagrams (in the diagrams folder) as the activity diagr
 
 5. Check out and test the DApp in the frontend with the command below. You can run on the ganache-cli window, since Ganache was only for testing purpose.
 
-**Important** As a reminder, the frontend of the application will interact with the contract on the [Rinkeby Test Network](https://rinkeby.etherscan.io/), not with the pre-built accounts and deployed contracts made by the Ganache suite, as you can see in the [browser's developer console](https://support.airtable.com/hc/en-us/articles/232313848-How-to-open-the-developer-console#:~:text=To%20open%20the%20developer%20console%20window%20on%20Chrome%2C%20use%20the,then%20select%20%22Developer%20Tools.%22).
-
 ```powershell
   npm run dev
 ```
+
+**Important**: As a reminder, the frontend of the application will interact with the contract on the [Rinkeby Test Network](https://rinkeby.etherscan.io/), not with the pre-built accounts and deployed contracts made by the Ganache suite, as you can see in the [browser's developer console](https://support.airtable.com/hc/en-us/articles/232313848-How-to-open-the-developer-console#:~:text=To%20open%20the%20developer%20console%20window%20on%20Chrome%2C%20use%20the,then%20select%20%22Developer%20Tools.%22).
 
 ### Output
 
@@ -88,4 +88,4 @@ Etherscan info:
 
 ![image](https://user-images.githubusercontent.com/29313947/128575122-f5f766b6-6e24-45df-a3f6-75a723eb8f3e.png)
 
-![image](https://user-images.githubusercontent.com/29313947/128575141-39388056-14f6-4dd2-b2e8-14895df2a674.png)
+![image](https://user-images.githubusercontent.com/29313947/128575646-5bd39fd8-14a2-4599-b643-85950b4334b7.png)
