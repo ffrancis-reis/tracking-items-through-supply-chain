@@ -4,7 +4,9 @@
 
 This project consists in a decentralized application (DApp) of a supply chain solution backed by the Ethereum platform. It has Solidity smart contracts that manage specific user permission controls as well as track and verify products authenticity. It demonstrates a commonly supply chain process between a buyer and a seller. The seller can add items to the inventory system stored in the blockchain and the buyer can purchase such items. the seller can mark an item as shipped and the buyer can mark an item as received as well.
 
-The project has some UML diagrams (in the diagrams folder) as the sequence diagram below to make it better to understand the flow of the product in the supply chain.
+The project has some UML diagrams (in the diagrams folder) as the activity diagram below to make it better to understand the flow of the product in the supply chain.
+
+![activity](https://user-images.githubusercontent.com/29313947/128574567-22ad7f1c-c87c-4116-81ca-3787ae8ff59d.png)
 
 **Important** The project was made with the versions below, since Truffle v5 comes with Solidity v0.5 with many changes concerning mutability and visibility.
 
@@ -47,6 +49,8 @@ The project has some UML diagrams (in the diagrams folder) as the sequence diagr
   ganache-cli -m "spirit supply whale amount human item harsh scare congress discover talent hamster"
 ```
 
+![image](https://user-images.githubusercontent.com/29313947/128574297-9b9d8102-fdc9-4378-953b-2109b9bcea14.png)
+
 3. Migrate, compile and test the contracts with truffle (on a separate console). It will use the previously up and running ganache locally blockchain.
 
 ```powershell
@@ -54,6 +58,8 @@ The project has some UML diagrams (in the diagrams folder) as the sequence diagr
   truffle compile
   truffle test
 ```
+
+![image](https://user-images.githubusercontent.com/29313947/128574410-c52cf254-70b0-4d4e-b72e-6eae35799ba3.png)
 
 4. Publish the contracts into the Rinkeby Test Network with your Infura key:
 
@@ -71,9 +77,15 @@ The project has some UML diagrams (in the diagrams folder) as the sequence diagr
 
 ### Output
 
-Here is an example of the interactions with the contract flowing in the chain and the transactions on Rinkeby:
+Here is an example of the smart contract in the blockchain and the transactions on Rinkeby:
 
 Etherscan info:
 
-- Transaction ID: **0x9626feef4b73f6168a57483864ae1b4cb8886d3def6df990622a7faaa4cc02a6**
-- Contract: **0x19650214285809e7f14Cc5431d5B2a51E3Dd857e**
+- Transaction ID: [**0x6b3dc37663772515e0464098be314717e109ccdfb882725ce65432161d8e4404**](https://rinkeby.etherscan.io/tx/0x6b3dc37663772515e0464098be314717e109ccdfb882725ce65432161d8e4404)
+- Contract: [**0xcf5a7edb0a5967acab9b81eb06c021b81b9ce1af**](https://rinkeby.etherscan.io/address/0xcf5a7edb0a5967acab9b81eb06c021b81b9ce1af)
+
+![image](https://user-images.githubusercontent.com/29313947/128574896-4a28763b-7e54-411b-9232-b8e94f376c6b.png)
+
+![image](https://user-images.githubusercontent.com/29313947/128575122-f5f766b6-6e24-45df-a3f6-75a723eb8f3e.png)
+
+![image](https://user-images.githubusercontent.com/29313947/128575141-39388056-14f6-4dd2-b2e8-14895df2a674.png)
