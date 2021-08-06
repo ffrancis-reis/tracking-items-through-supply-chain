@@ -4,6 +4,9 @@
 
 This project consists in a decentralized application (DApp) of a supply chain solution backed by the [Ethereum](https://ethereum.org/en/) platform. It has smart contracts that manage specific user permission controls as well as track and verify products authenticity.
 
+![image](activity diagram.png)
+
+
 ### Getting Started
 
 1. Clone this repository.
