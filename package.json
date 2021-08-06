@@ -1,5 +1,5 @@
 {
-  "name": "supply-chain-E",
+  "name": "tracking-items-through-supply-chain",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,5 +12,8 @@
   "license": "MIT",
   "devDependencies": {
     "lite-server": "2.4.0"
+  },
+  "dependencies": {
+    "truffle-hdwallet-provider": "1.0.17"
   }
 }

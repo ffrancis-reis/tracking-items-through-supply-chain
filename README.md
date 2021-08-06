@@ -4,9 +4,6 @@
 
 This project consists in a decentralized application (DApp) of a supply chain solution backed by the [Ethereum](https://ethereum.org/en/) platform. It has smart contracts that manage specific user permission controls as well as track and verify products authenticity.
 
-![image](activity diagram.png)
-
-
 ### Getting Started
 
 1. Clone this repository.
@@ -64,5 +61,3 @@ This project consists in a decentralized application (DApp) of a supply chain so
 ### Output
 
 Here is an example of the interactions with the contract flowing in the chain and the transactions on Rinkeby:
-
-![image](https://user-images.githubusercontent.com/29313947/113633728-d1193f00-9643-11eb-8743-7a96917e1581.png)
